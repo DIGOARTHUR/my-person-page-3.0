@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#262337];
+  @apply text-slate-50;
+  @apply font-roboto;
+}
