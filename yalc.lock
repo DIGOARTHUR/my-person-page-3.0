@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "github-automated-repos": {
+      "signature": "e44dd683a45209ebb8e37145c9196352",
+      "file": true,
+      "replaced": "^1.0.21"
+    }
+  }
+}
