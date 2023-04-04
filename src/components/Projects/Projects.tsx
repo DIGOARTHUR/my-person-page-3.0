@@ -1,5 +1,5 @@
 
-
+import { AiOutlineLink } from 'react-icons/ai';
 import { useEffect, useState } from 'react';
 import { useGithubAutomatedRepos, ProjectIcon, StackIcon, IGithubRepos } from 'github-automated-repos/index';
 import Aos from 'aos';
@@ -19,7 +19,7 @@ export default function Projects() {
     }, [])
 
     return (
-        <div className="flex flex-col   p-20 w-full">
+        <div className="flex flex-col   w-full">
             <h1 className=" text-5xl text-[#FC4C54]  mb-16">Projects<hr className=" border-[#FC4C54] mt-3 border-2 w-28" /></h1>
             <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1">
                 {repository.map((item, index) => {
@@ -37,12 +37,15 @@ export default function Projects() {
 
 
                                 {/*Description*/}
-                                <p className=''>{item.description}</p>
+                                <p className=''>{item.description.slice(0, 170) + " [...]"}</p>
 
                                 {/*Homepage*/}
-                                <a className='bor' href={item.homepage}>
-                                    <h3>Homepage</h3>
-                                </a>
+                                {
+                                    item.homepage ? <a className=' flex mt-4 gap-2' href={item.homepage}>
+                                        <h3 className='font-bold  '>Homepage </h3>< AiOutlineLink className='self-center' />
+                                    </a> : ''
+                                }
+
 
                                 {/*Stacks Icon*/}
                                 <div className=' flex absolute top-[-15px] right-10 '>

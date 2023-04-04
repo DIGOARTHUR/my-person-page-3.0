@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Home() {
     return (
-        <div className=" h-[680px] flex flex-col justify-center gap-10 items-start mb-44">
+        <div className=" h-[500px] flex flex-col justify-center gap-10 items-start mb-20">
 
             <h1 className="  text-5xl text-[#ec4c54]">@Di<span className="text-[#ffffff]">e</span>go Arthur</h1>
             <div>

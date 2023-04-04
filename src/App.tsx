@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header />
-      < div className=" flex flex-col items-center justify-center m-auto max-w-[1200px]">
+      < div className=" flex flex-col items-center justify-center m-auto max-w-[1200px] p-16 gap-32">
 
         <Home />
         <Aboutme />
