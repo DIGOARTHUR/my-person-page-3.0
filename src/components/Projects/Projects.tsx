@@ -8,10 +8,19 @@ export default function Projects() {
     {/*useGithubAutomatedRepos hook*/ }
     const { dataReposGithub } = useGithubAutomatedRepos()
     const [repository, setRepository] = useState<IGithubRepos[]>([])
+    const [widthView, setWidthView] = useState(0)
+
+
+
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+
+        Aos.init({ duration: 2000 })
+
+
     }, []);
+    console.log(widthView)
     useEffect(() => {
+
         {/*Put here your github Name*/ }
         fetch('https://api.github.com/users/digoarthur/repos')
             .then(response => response.json())
@@ -19,13 +28,13 @@ export default function Projects() {
     }, [])
 
     return (
-        <div className="flex flex-col   w-full">
+        <div className="flex flex-col   w-full ">
             <h1 className=" text-5xl text-[#FC4C54]  mb-16">Projects<hr className=" border-[#FC4C54] mt-3 border-2 w-28" /></h1>
-            <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1">
+            <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">
                 {repository.map((item, index) => {
 
                     return (
-                        <a data-aos={'fade-left'} className=' h-80 w-72 relative  drop-shadow-2xl bg-[#262337] p-10 max-sm:w-full' href={item.html_url}>
+                        <a data-aos={'fade-up'} className=' h-80 w-72 relative  drop-shadow-2xl bg-[#262337] p-10 max-sm:w-full' href={item.html_url} >
                             <li className='' key={item.id}>
 
 
@@ -60,12 +69,9 @@ export default function Projects() {
                     )
                 })}
             </ul>
-        </div>
+        </div >
     );
 
 }
 
-{
-
-}
 

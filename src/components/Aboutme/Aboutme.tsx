@@ -6,11 +6,16 @@ export default function Aboutme() {
                 <img className=" max-h-[480px] " src="https://user-images.githubusercontent.com/59892368/228212455-584bfb8a-3f70-4a1b-83ca-3e429db3bd31.png" />
                 <div className="w-full max-lg:flex  justify-center">
                     <p className="text-xl max-w-[31rem]">
-                        Meu nome é Diego Arthur e tenho 29 anos
+                        Meu nome é Diego Arthur e tenho 29 anos.
                         Sou programador Front-end, apaixonado por ensinar e por tudo que envolva tecnologia. Meu primeiro emprego foi utilizando a tecnologia SAPUI5, mas atualmente me especializo em:
                         <br />
                         <br />
-                        <code>HTML</code>,  <code>Tailwind</code>, <code>TypeScript</code> <code>ReactJS</code> e  <code>NodeJS</code>.
+                        <code>HTML5</code>,  <code>Tailwind</code>, <code>TypeScript</code> <code>ReactJS</code> e  <code>NodeJS</code>.
+                        <div className="mt-8">
+                            <a className='' href="">
+                                <img className=" h-11 hover:brightness-125 max-sm: w-full" src="https://user-images.githubusercontent.com/59892368/228204432-009858a8-b216-433a-b913-f746bd99f8da.svg" />
+                            </a>
+                        </div>
                         <br />
                         <br />
                         Quando não estou trabalhando, desenvolvo projetos pessoais ou de eventos da Rocketseat, Alura, e acompanho novidades sobre a área no Youtube.
