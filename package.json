@@ -11,7 +11,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "framer-motion": "^10.9.1",
-    "github-automated-repos": "file:.yalc/github-automated-repos",
+    "github-automated-repos": "^1.0.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",

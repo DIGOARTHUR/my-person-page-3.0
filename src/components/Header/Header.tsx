@@ -44,7 +44,7 @@ export default function Header() {
                 </a>
             </div>
             <div className={`absolute z-20 flex flex-col h-screen w-full bg-[#262337] gap-24 right-[-100%] transition-all ease-in-out delay-[0.1s] ${isOpenNavbar ? 'right-[0]' : ''}`}>
-                <div className=" flex  justify-end min-h-[96px] px-5 items-center md:hidden">
+                <div className=" flex  justify-end min-h-[96px] px-5 items-center lg:hidden">
                     <a onClick={_handleNavbar}>
                         <AiOutlineClose className={isOpenNavbar ? '' : ''} size={50} />
                     </a>
@@ -56,7 +56,7 @@ export default function Header() {
                     <a href="#aboutme" onClick={_handleNavbar}>
                         <h1>About me</h1>
                     </a>
-                    <a href="#stack" onClick={_handleNavbar}>
+                    <a href="#stacks" onClick={_handleNavbar}>
                         <h1>Stacks</h1>
                     </a>
                     <a href="#projects" onClick={_handleNavbar}>
