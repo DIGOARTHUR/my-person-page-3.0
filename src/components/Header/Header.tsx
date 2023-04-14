@@ -30,10 +30,18 @@ export default function Header() {
                 </a>
             </div>
             <div className='hidden lg:flex justify-center items-center text-2xl gap-16'>
-                <h1>Home</h1>
-                <h1>About me</h1>
-                <h1>Skills</h1>
-                <h1>Projects</h1>
+                <a href="#home">
+                    <h1  >Home</h1>
+                </a>
+                <a href="#aboutme">
+                    <h1>About me</h1>
+                </a>
+                <a href="#stacks">
+                    <h1>Stacks</h1>
+                </a>
+                <a href="#projects">
+                    <h1>Projects</h1>
+                </a>
             </div>
             <div className={`absolute z-20 flex flex-col h-screen w-full bg-[#262337] gap-24 right-[-100%] transition-all ease-in-out delay-[0.1s] ${isOpenNavbar ? 'right-[0]' : ''}`}>
                 <div className=" flex  justify-end min-h-[96px] px-5 items-center md:hidden">
@@ -42,10 +50,18 @@ export default function Header() {
                     </a>
                 </div>
                 <div className="flex flex-col justify-center items-center text-5xl gap-8 ">
-                    <h1>Home</h1>
-                    <h1>About me</h1>
-                    <h1>Skills</h1>
-                    <h1>Projects</h1>
+                    <a href="#home" onClick={_handleNavbar}>
+                        <h1  >Home</h1>
+                    </a>
+                    <a href="#aboutme" onClick={_handleNavbar}>
+                        <h1>About me</h1>
+                    </a>
+                    <a href="#stack" onClick={_handleNavbar}>
+                        <h1>Stacks</h1>
+                    </a>
+                    <a href="#projects" onClick={_handleNavbar}>
+                        <h1>Projects</h1>
+                    </a>
                 </div>
 
             </div>

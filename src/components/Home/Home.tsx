@@ -4,7 +4,7 @@ import TypeWriter from 'typewriter-effect'
 
 export default function Home() {
     return (
-        <div className=" h-[85VH] flex flex-col justify-center gap-10 items-start  max-sm:h-[500px]">
+        <div id='home' className=" h-[85VH] flex flex-col justify-center gap-10 items-start  max-sm:h-[500px]">
 
             <h1 className=" text-5xl text-[#ec4c54] max-sm:text-5xl">@Di<span className="text-[#ffffff]">e</span>go Arthur</h1>
             <div>

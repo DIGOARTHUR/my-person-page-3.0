@@ -5,8 +5,8 @@ import { ReactSVG } from "react-svg";
 export default function Stacks() {
 
     return (
-        <div className=" flex flex-col w-full ">
-            <h1 className=" text-5xl text-[#FC4C54] mb-16 ">Stacks
+        <div id='stacks' className=" flex flex-col w-full ">
+            <h1 className=" pt-28   text-5xl text-[#FC4C54] mb-16 ">Stacks
                 <hr className=" border-[#FC4C54] mt-3 border-2 w-28" />
             </h1>
             <div className="grid  grid-cols-5 max-w-2xl items-center gap-5  max-sm:grid-cols-3 ">
