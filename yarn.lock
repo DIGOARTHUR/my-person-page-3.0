@@ -764,10 +764,10 @@ gensync@^1.0.0-beta.2:
   resolved "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz"
   integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
 
-github-automated-repos@^1.0.21:
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/github-automated-repos/-/github-automated-repos-1.0.21.tgz#c35cf00125a4932f19ad853dc758ec18ae3c5cf5"
-  integrity sha512-XPI4WDoBnDAW3o6K3f/0Ge++kftTCjWbXtFk17uGqorZe+oGsky9L5l+W37E/y7+zzLXQ/RG4EgvYisvmTOSTQ==
+github-automated-repos@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/github-automated-repos/-/github-automated-repos-1.1.0.tgz#2e2aaed6ac139cdff886b15fa1f3f1c6e5d76f87"
+  integrity sha512-cQH92TfEI2H/w26/VGCIlpfTYcruiOAQRzZ3UiTAlFui9ZYuQUVnSQ9SQyGrORejyl3sDPPtq/e/f9DLxH8VoA==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"

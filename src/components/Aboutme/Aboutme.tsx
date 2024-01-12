@@ -15,7 +15,7 @@ export default function Aboutme() {
                         <code className="text-[#ffffff]">HTML, CSS, JavaScript, TypeScript, TailwindCSS, ReactJS, Nodejs</code>.
                         <div className="mt-8">
 
-                            <a href="CV_Diego_SoftwareDeveloper.pdf" download target="_blank" type="application/pdf">
+                            <a href="" download target="_blank" type="application/pdf">
                                 <img className=" h-11 hover:brightness-125 max-sm: w-full" src="https://user-images.githubusercontent.com/59892368/228204432-009858a8-b216-433a-b913-f746bd99f8da.svg" />
                             </a>
 
